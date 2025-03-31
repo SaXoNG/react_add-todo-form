@@ -42,7 +42,7 @@ export const App = () => {
     id: creatingTodoId(todos),
     title: title,
     completed: false,
-    user: users[selectedUser],
+    user: users[selectedUser - 1],
   };
 
   const handleSubmit = (e: React.FormEvent) => {
